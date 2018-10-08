@@ -1,0 +1,6 @@
+com/auvgo/gsssm/entity/User.class
+com/auvgo/gsssm/entity/UserExample$Criterion.class
+com/auvgo/gsssm/entity/UserExample$GeneratedCriteria.class
+com/auvgo/gsssm/dao/mapper/UserMapper.class
+com/auvgo/gsssm/entity/UserExample.class
+com/auvgo/gsssm/entity/UserExample$Criteria.class
