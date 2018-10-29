@@ -83,4 +83,15 @@ public class User {
         result = prime * result + ((getAddress() == null) ? 0 : getAddress().hashCode());
         return result;
     }
+
+    @Override
+    public String toString() {
+        return "User{" +
+                "id=" + id +
+                ", username='" + username + '\'' +
+                ", birthday=" + birthday +
+                ", sex='" + sex + '\'' +
+                ", address='" + address + '\'' +
+                '}';
+    }
 }

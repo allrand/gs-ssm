@@ -33,17 +33,18 @@ public class UserController {
         logger.info("listdata user:{} ", user.toString());
 
         if (user == null || user.getId() == null){
-            result.setMsg("listdata null");
-            result.setCount(0);
-            result.setData(null);
-        }else {
             List<User> users = userSvc.getUsers();
             result.setData(users);
             result.setCount(users.size());
             result.setMsg("listdata success");
+        }else {
+            List<User> list = userSvc.getUser(user);
+//            result.setMsg("listdata null");
+            result.setCount(list.size());
+            result.setData(list);
         }
         result.setCode(0);
-
+logger.info(result.toString());
         return result;
     }
 }

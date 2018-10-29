@@ -4,7 +4,9 @@ import com.auvgo.gsssm.entity.User;
 import com.auvgo.gsssm.entity.UserExample;
 import java.util.List;
 import org.apache.ibatis.annotations.Param;
+import org.springframework.stereotype.Repository;
 
+@Repository
 public interface UserMapper {
     long countByExample(UserExample example);
 

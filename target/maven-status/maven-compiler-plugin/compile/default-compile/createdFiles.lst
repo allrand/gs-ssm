@@ -1,3 +1,6 @@
+com/auvgo/gsssm/service/UserSvc.class
+com/auvgo/gsssm/entity/InavResult.class
+com/auvgo/gsssm/controller/UserController.class
 com/auvgo/gsssm/entity/User.class
 com/auvgo/gsssm/entity/UserExample$Criterion.class
 com/auvgo/gsssm/entity/UserExample$GeneratedCriteria.class
